@@ -1,0 +1,571 @@
+*{
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:1.5rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/******************************************
+    Header Section Code Start
+*******************************************/
+
+.header-section{
+    width:100%;
+    background:url(../images/header-img-2.png) center top no-repeat;
+    background-size:cover;
+    padding:1.5rem 0 2rem 0;
+    overflow: hidden;
+}
+.header-section .navbar-toggler-icon{
+/*    background:#08c;*/
+}
+
+.navclass {
+    background: transparent;
+    padding: 3.3rem 0rem;
+}
+.left-header{
+    margin-top: 10rem;
+}
+
+ .header-section .navbar-expand-md .navbar-nav .nav-link{
+    padding-right: .5rem;
+    padding-left: .5rem;
+    margin-left: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color:#fff;
+}
+
+
+.header-section .navbar-expand-md .navbar-nav .nav-link:hover{
+     background:url(../images/nav-img.png) bottom no-repeat;
+}
+.left-header h5{
+    color: #0476b1;
+    padding:2rem 0;
+}
+.left-header h2 {
+    color: #fff;
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    padding-bottom: 1rem;
+}
+
+.left-header p{
+    color:#999999;
+    padding-bottom: 2.5rem;
+}
+.header-section .btn-primary {
+    color: #fff;
+    background-color: #008ed6;
+    border-color: #007bff;
+    padding: 1rem 3.5rem;
+    border-radius: 0.4rem;
+    margin-right: 2.5rem;
+    font-size: 1.3rem;
+}
+.header-section .btn-primary:hover{
+    background-color:transparent;
+    border:.1rem solid #4b494d;
+}
+.header-section .btn-info{
+    color: #fff;
+    background-color:transparent;
+    border-color: #007bff;
+    padding: 1rem 3.5rem;
+    border-radius: 0.4rem;
+    border:.1rem solid #4b494d;
+    font-size: 1.3rem;
+    transition: 1s;
+ 
+}
+.header-section .btn-info:hover{
+    background-color: #008ed6;
+    transition: 1s;
+}
+.header-section .device{
+     width: 63%;
+    float:right;
+    margin-top:2rem;
+}
+
+/******************************************
+    Header Section Code End
+*******************************************/
+
+/******************************************
+    Feature Section Code End
+*******************************************/
+.feature-section{
+    width:100%;
+    background:#ffffff;
+    padding:4rem 0;
+    
+}
+.feature-section h5 {
+    color: #0476b1;
+    padding: 2rem 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.feature-title  h3{
+    font-size: 3rem;
+    font-weight:600;
+    color:#1a1a1a;
+    background:url(../images/nav-img.png) center bottom no-repeat;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.inner-feature {
+    width: 100%;
+    padding: 4.5rem 0rem;
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.inner-feature h3{
+    padding:1.5rem 0;
+    color:#1a1a1a;
+    font-weight: 600;
+    font-size:2rem;
+}
+.inner-feature p{
+    color:#999999;
+}
+
+.left-moblie .left-moblie-img {
+    width: 85%;
+}
+.right-content{
+    width:100%;
+    float:left;
+}
+.right-content h5{
+     color: #0476b1;
+    padding:2rem 0;
+    text-transform: uppercase;
+    text-align: left;
+}
+.right-content h2{
+     padding:2.5rem 0;
+    color:#1a1a1a;
+    font-weight: 600;
+    font-size:2rem;
+    background:url(../images/nav-img.png) left bottom no-repeat;
+}
+.right-content p{
+    color:#999999;
+    margin:2.5rem 0;
+}
+
+.ul-list ul li{
+    font-size:1.3rem;
+    font-weight: 600;
+    color:#1b1b1b;
+}
+.ul-list img{ 
+   margin:1.1rem 0rem;
+    padding-right: 1rem
+}
+ 
+/******************************************
+    Feature Section Code End
+*******************************************/
+
+
+/******************************************
+    Customize Section Code Start
+*******************************************/
+.customize-section{
+    width:100%;
+    box-sizing: border-box;
+    background:#f2f2f2;
+    padding:2.5rem 0;
+}
+
+.customize-left{
+    width:100%;
+    margin-top:5rem;
+}
+
+.customize-left h5 {
+    color: #0476b1;
+    padding:.5rem 0;
+    text-transform: uppercase;
+}
+.customize-left h2 {
+    padding: .7rem 0 1.7rem 0;
+    color: #1a1a1a;
+    font-weight: 600;
+    font-size: 2rem;
+    background: url(../images/nav-img.png) left bottom no-repeat;
+}
+
+.customize-left p{
+    color:#999999;
+    margin:2.5rem 0;
+}
+.customize-righ{
+     width:100%   
+}
+.customize-right .customize-right-img{
+    width:95%;
+    
+}
+
+/******************************************
+    Customize Section Code End
+*******************************************/
+
+/******************************************
+    Qulity Section Code Stsrt
+*******************************************/
+.qulity-section{
+    width:100%;
+    background:url(../images/Testimonials.png) center top no-repeat;
+    background-size:cover;
+    padding:2.5rem 0 4rem 0;
+}
+
+.qulity-title h5 {
+    color: #0476b1;
+    padding:.5rem 0;
+    text-transform: uppercase;
+     text-align: center;
+}
+.qulity-title h3 {
+    padding: .7rem 0 1.7rem 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2rem;
+    background: url(../images/nav-img.png)  bottom no-repeat;
+     text-align: center;
+}
+/* quality content */
+
+.qulity-content p {
+    color: #fff;
+    padding: 2rem 0;
+}
+.qulity-content img{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.qulity-content .media-body{
+    margin-left: 10px;
+}
+.qulity-content h6{
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: left;
+    display: inline-block;
+}
+.qulity-content h5{
+    color: #fff;
+    display: inline-block;
+}
+/* carousel customize */
+.owl-carousel .owl-item img {
+    width: 50px !important;
+    border-radius: 50% !important;
+}
+.owl-carousel button:focus {
+    outline: none !important;
+}
+.owl-carousel .owl-dots .active span{
+    background-color: #008ed6 !important;
+}
+
+
+/******************************************
+    Qulity Section Code End
+*******************************************/
+
+
+/******************************************
+    Qulity-submit Section Code Start
+*******************************************/
+.qulity-submit{
+    width:100%;
+    background:#15141a;
+    padding:3.3rem 0;
+}
+
+.qulity-submit-text h2{
+    display: inline-block;
+    color:#fff;
+    font-size:2.5rem;
+    font-weight: 600;
+}
+.qulity-submit-text span{
+    color:#535357;
+     font-size:2.5rem;
+    font-weight: 600;
+}
+
+.qulity-submit-btn{
+    float:right;
+    margin-top:.3rem;
+}
+.qulity-submit-btn .btn-primary {
+    color: #fff;
+    background:transparent;
+    border-color: #007bff;
+    padding: 1rem 3.5rem;
+    border-radius: 0.4rem;
+    margin-right: 2.5rem;
+    font-size: 1.3rem;
+     border:.1rem solid #4b494d;
+    transition: 1s;
+}
+.qulity-submit-btn .btn-primary:hover{
+    background-color: #008ed6;
+    transition: 1s;
+}
+.qulity-submit-btn .btn-info{
+    color: #fff;
+    background-color: #008ed6;
+    border-color: #007bff;
+    padding: 1rem 3.5rem;
+    border-radius: 0.4rem;
+    font-size: 1.3rem;
+    transition: 1s;
+ 
+}
+.qulity-submit-btn .btn-info:hover{
+    background-color: transparent;
+    border:.1rem solid #4b494d;
+    transition: 1s;
+ 
+}
+/******************************************
+    Qulity-submit Section Code End
+*******************************************/
+
+/******************************************
+    Qulity-Price Section Code Start
+*******************************************/
+.qulity-price{
+   width:100%;
+    padding:3rem 0;
+    text-align: center;
+}
+
+.qulity-price-title h5 {
+    color: #0476b1;
+    padding:.5rem 0;
+    text-transform: uppercase;
+     text-align: center;
+}
+.qulity-price-title  {
+    margin-bottom: 8rem;
+}
+.qulity-price-title h3 {
+    padding: .7rem 0 2rem 0;
+    color: #1a1a1a;
+    font-weight: 600;
+    font-size: 2rem;
+    background: url(../images/nav-img.png)  bottom no-repeat;
+     text-align: center;
+}
+.card-body{
+    padding:0;
+}
+ .price h3{
+    color:#1a1a1a;
+    font-size:2.5rem;
+}
+ .card-header{
+    padding: 1.5rem 1.25rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    color:#1a1a1a;
+    font-size: 2rem;
+    font-weight: 700;
+    background: none;
+}
+
+.card:hover h1{
+    color:#008ed6;
+}
+.card-body p{
+    color:#999999;
+    padding: 1.4rem 0; 
+}
+.card:hover .card-body p{
+    color:#1a1a1a;
+}
+.price span{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.price p{
+    color:#999999;
+}
+.price:hover{
+    background:  #008ed6;
+    color: #fff;
+}
+.card-body .price{
+    padding:2.5rem 0;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    width:100%
+}
+.btn-success  {
+    color:#1a1a1a;
+     border:1px solid rgba(0,0,0,.125);
+    padding: 1rem 4rem;
+    margin-bottom: 2rem;
+    background: none;  
+    font-weight:600;
+    font-size: 1.4rem
+}
+.card:hover .btn-success{
+    color:#fff; 
+    background:#008ed6;
+} 
+.card .card-header
+
+/******************************************
+    Qulity-Price Section Code End
+*******************************************/
+
+/******************************************
+    Contact Section Code Start
+*******************************************/
+.contact-section{
+	width:100%;
+	padding:80px 0px 0px;
+	background: #ededed;
+}
+.contact-section .feature-title{
+	padding:0px 0px 80px;
+}
+.contact-section .contact-inner{
+	width:100%;
+	padding:20px 0px;
+	text-align: center;
+}
+.contact-section .contact-inner img{
+	margin-bottom:25px;
+}
+.contact-section .contact-inner p{
+	font-size: 14px;
+	color:#999999;
+	line-height: 24px;
+	
+}
+.main-from{
+	width:100%;
+	padding:80px 50px 60px;
+	background: #000;
+	margin-bottom: -150px;
+}
+.main-from .form-control {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 13px 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #333333;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.main-from textarea.form-control {
+    height: 190px;
+}
+.main-from .btn-info{
+	padding: 10px 30px;
+	background: #0099cc;
+	color:#fff;
+	border: 1px solid #fff;
+	border-radius: 2px;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform:uppercase;
+}
+
+.main-from .btn-info:hover{
+	background:transparent;
+	color:#0099cc;
+	border: 1px solid #0099cc;
+	transition:1s ease-in;
+}
+.map{
+	width:100%;
+}
+
+/******************************************
+    Contact Section Code End
+*******************************************/
+
+
+/******************************************
+    Footer Section Code Start
+*******************************************/
+
+.footer-section{
+    width:100%;
+    padding:2.5rem 0rem;
+    background:#15141a;
+    text-align: center;
+    margin-top: -7px;
+}
+.footer-section ul li{
+    display: inline-block;
+    padding:1rem;
+    margin-left: 2.6rem;
+    color:#fff;
+    
+}
+.social-icon p{
+    font-size: 2rem;
+    font-weight: 500;
+    color:#fff;
+}
+.footer-section ul li:hover{
+    color:#008ed6;
+
+
+}
+
+/******************************************
+    Footer Section Code End
+*******************************************/
+
+
+.isStuck{
+    left:0px;
+    width:100%;
+    background:#008ed6;
+}
+.navbar-wrapper {
+  margin-top:0px;
+  position: relative;
+  z-index: 15;
+  width: 100%;
+
+}

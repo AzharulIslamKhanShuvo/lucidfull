@@ -1,0 +1,295 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+/****************************
+    Header SEction Start
+****************************/
+    .header-section{
+        background-size:cover;
+    }
+    .header-section .active{
+        background:none;
+    }
+    .header-section .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: .2rem;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        margin-top: 3px;
+    }
+    .left-header {
+        margin-top: 0rem;
+    }
+    .navbar-brand img{
+        width: 5rem;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+    }
+    .header-section .navbar-toggler-icon {
+        margin-right: 4rem;
+        margin-bottom: 1rem;
+        background: #A5A0A0;
+        border-radius: 50%;
+       
+    }
+    .header-section .navbar-expand-md .navbar-nav .nav-link {
+        text-align: center;
+        background: #655252; 
+        width: 92%;   
+    }
+    .left-header h2 {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+   }
+    .left-header p {
+        font-size: 1rem;
+    }
+    .header-section .btn-primary{
+        padding: 0.5rem 1rem;
+        font-size: 1rem
+    }
+    .header-section .btn-info{
+        padding: 0.5rem 1rem;
+        font-size: 1rem
+    }
+    .btn-inner{
+        text-align:center;
+    }
+    .header-section .device {
+        float: none;
+        text-align: center;
+        margin: 4rem 0 0 7rem;
+        width: 13rem;
+    }
+    
+/****************************
+    Header SEction End
+****************************/
+    
+/****************************
+    Feature SEction Start
+****************************/
+    .left-moblie .left-moblie-img {
+        width: 79%;
+        margin-left: 3rem;
+     }
+    .right-content h5 {
+        padding: .8rem 0;
+        margin-top: 3rem;
+    }
+    .right-content h2 {
+        padding: 1.3rem 0;
+    }
+    .right-content p {
+        font-size: 1.1rem;
+    }
+    .customize-left p{
+        font-size:1rem;
+    }
+    .inner-featur{
+        padding-bottom:4rem;
+    }
+    /* contact */
+     .contact-section{
+        text-align: center;
+    }
+    .left-form {
+        margin-left: 0rem;
+    }
+    .left-form input {
+        margin-left: 0rem;
+        width: 100%;
+    }
+    .right-form{
+        float:none;
+    }
+    .right-form textarea{
+        width: 100%;
+    }
+    .right-form input[type="submit"]{
+        margin-right:0rem;
+        width: 100%;
+    }
+/****************************
+    Feature SEction End
+****************************/    
+      
+}
+
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+ /****************************
+    Header SEction Start
+****************************/
+    .navbar-brand img{
+        margin-left:4rem;
+        margin-bottom: 1rem;
+    }
+    .header-section .navbar-toggler-icon {
+        margin-right: 4rem;
+         margin-bottom: 1rem;
+        background: #A5A0A0;
+        border-radius: 50%;
+    }
+    .btn-inner{
+        margin-left: 6rem;
+        padding-bottom: 3rem;
+    }
+    .header-section .device {
+        width: 60%;
+        float:none;
+        margin: 3rem 0 0 8rem;
+    }
+        .header-section .navbar-expand-md .navbar-nav .nav-link {
+        text-align: center;
+        background: #655252; 
+        width: 93%;
+    }
+    
+/****************************
+    Header SEction End
+****************************/  
+    
+ /****************************
+    Feature SEction Start
+****************************/
+    .inner-feature {
+        padding: 1.5rem 0rem;
+        margin-bottom: 2rem;
+    }
+    .left-moblie .left-moblie-img {
+        width: 60%;
+        margin-left: 9rem;
+        padding-bottom
+    }
+    
+ /****************************
+    Feature SEction ENd
+****************************/    
+    /* contact */
+    .contact-section{
+        text-align: center;
+    }
+    .left-form {
+        margin-left: 0rem;
+    }
+    .left-form input {
+        margin-left: 0rem;
+        width: 100%;
+    }
+    .right-form{
+        float:none;
+    }
+    .right-form textarea{
+        width: 100%;
+        padding: 3rem 2.5rem;
+    }
+    .right-form input[type="submit"]{
+        margin-right:0rem;
+        width: 100%;
+    }
+
+
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+       /****************************
+    Header SEction Start
+****************************/ 
+   .header-section .device {
+    margin-top: 20rem;
+    }
+    
+    .header-section{
+        padding: 1.5rem 0 9rem 0;
+    }
+   .header-section .left-header {
+       margin-top: 17rem;
+     }
+    .header-section .left-header h2 {
+        font-size: 2.5rem;
+        line-height: 3.4rem;
+      }
+   .header-section .left-header p{
+        font-size:1rem;
+    }
+    .header-section .btn-primary {
+         padding: 1rem 1.5rem;
+    }
+    .btn-inner .btn-info{
+         padding: 1rem 1.5rem;
+        float:right;
+    }
+    .header-section .device {
+      margin-top: 19rem;
+    }
+  
+    
+ /****************************
+    Header SEction ENd
+****************************/  
+    
+ /****************************
+    Feature SEction Start
+****************************/  
+    
+    .inner-feature p {
+        font-size: 1.1rem;
+    }
+    .right-content p {
+       font-size: 1.2rem;
+    }
+    
+    .customize-left p {
+      font-size: 1rem;
+     }
+ /****************************
+    Feature SEction ENd
+****************************/      
+    .customize-left p {
+      font-size: 1rem;
+     }
+    .customize-right .customize-right-img{
+        width: 92%;
+        margin: 4rem 0 0 1rem;
+    }
+     /* contact */
+    
+    .left-form {
+        margin-left: 0rem;
+    }
+    .left-form input {
+        margin-left: 0rem;
+        width: 100%;
+    }
+    
+    .right-form textarea{
+        width: 100%;
+        padding: 1.3rem 2.5rem;
+    }
+    .right-form input[type="submit"]{
+        margin-right:0rem;
+        width: 100%;
+    }
+  
+}
+
+
